@@ -6,15 +6,10 @@ const TypeWriterText = (props) => {
 		<div className="typewriter">
 			{" "}
 			<Typewriter
-				onInit={(typewriter) => {
-					typewriter
-
-						.typeString("Corey Miller")
-
-						.pauseFor(1000)
-						.deleteAll()
-						.typeString("React Developer")
-						.start();
+				options={{
+					strings: ["React Developer", "Corey Miller"],
+					autoStart: true,
+					loop: true,
 				}}
 			/>
 		</div>
