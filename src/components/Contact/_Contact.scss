@@ -1,0 +1,68 @@
+.contact {
+	&__form {
+		margin-top: 1rem;
+	}
+	&__name-label {
+		display: block;
+	}
+	&__name-input {
+		background-color: transparent; /* Remove background fill */
+		text-transform: uppercase; /* Make text all uppercase */
+		border: 2px solid #fff; /* 2px white border */
+		padding: 5px;
+
+		border-radius: 7px;
+		color: #fff; /* White text */
+		height: 45px; /* Increase input height */
+		width: 100%;
+	}
+	&__email-label {
+		display: block;
+	}
+	&__email-input {
+		background-color: transparent; /* Remove background fill */
+		text-transform: uppercase; /* Make text all uppercase */
+		border-radius: 7px;
+		padding: 5px;
+
+		border: 2px solid #fff; /* 2px white border */
+		color: #fff; /* White text */
+		height: 45px; /* Increase input height */
+		width: 100%;
+	}
+
+	&__message-label {
+		display: block;
+	}
+
+	&__message-textarea {
+		background-color: transparent; /* Remove background fill */
+		text-transform: uppercase; /* Make text all uppercase */
+		border-radius: 7px;
+		padding: 5px;
+		border: 2px solid #fff; /* 2px white border */
+		color: #fff; /* White text */
+		height: 100px; /* Increase input height */
+		width: 100%;
+		margin-bottom: 1rem;
+	}
+	&__button {
+		background-color: #14e2ae;
+		border: 0;
+		color: #fff;
+		border-radius: 1px;
+		font-weight: 700;
+		text-align: center;
+		text-transform: uppercase;
+		margin-bottom: 15px;
+		width: auto;
+		padding: 20px 42px;
+		letter-spacing: 2px;
+		font-size: 14px;
+	}
+	&__button:hover {
+		cursor: pointer;
+		box-shadow: 0px 7px 16px -7px rgba(255, 255, 255, 0.6);
+		border: 0;
+	}
+}
