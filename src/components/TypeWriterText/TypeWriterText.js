@@ -5,13 +5,16 @@ const TypeWriterText = (props) => {
 	return (
 		<div className="typewriter">
 			{" "}
-			<Typewriter
-				options={{
-					strings: ["React Developer", "Corey Miller"],
-					autoStart: true,
-					loop: true,
-				}}
-			/>
+			<h6>
+				<Typewriter
+					options={{
+						strings: ["React", "Node", "Front-End", "Full-Stack"],
+						autoStart: true,
+						loop: true,
+					}}
+				/>
+				<span className="developer">Developer</span>
+			</h6>
 		</div>
 	);
 };

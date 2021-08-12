@@ -1,9 +1,13 @@
 .typewriter {
 	position: absolute;
 	z-index: 100;
-	color: white;
+	color: #61dbfb;
 	top: 50%;
 	left: 50%;
 	font-size: 4rem;
 	transform: translate(-50%, -50%);
+}
+
+.developer {
+	color: #eee;
 }

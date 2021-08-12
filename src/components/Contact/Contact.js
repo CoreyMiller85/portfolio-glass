@@ -27,7 +27,7 @@ const Contact = () => {
 	}
 
 	return (
-		<Section title="Contact Me">
+		<Section title="Contact Me" id="contact">
 			<form className="contact__form" onSubmit={sendEmail}>
 				<label htmlFor="name" className="contact__name-label">
 					Name:

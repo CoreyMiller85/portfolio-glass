@@ -13,13 +13,13 @@
 		&::after {
 			content: "";
 			position: absolute;
-			top: 30px;
+			top: 40px;
 			left: 0;
 			height: 5px;
 			background: linear-gradient(
 				to right,
-				rgba($color: rgb(255, 0, 0), $alpha: 1),
-				rgba($color: rgba(255, 3, 3, 0), $alpha: 0)
+				rgba($color: rgb(119, 255, 0), $alpha: 1),
+				rgba($color: rgb(255, 3, 3), $alpha: 0)
 			);
 			width: 160%;
 		}

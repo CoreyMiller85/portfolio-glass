@@ -9,7 +9,7 @@ function Content() {
 	return (
 		<div className="content">
 			<HeroImage />
-			<Section title="About Me">
+			<Section title="About Me" id="about-me">
 				<Container>
 					<p>
 						I am Corey Miller, a Charlotte NC fullstack web developer. I have
@@ -22,12 +22,12 @@ function Content() {
 					</p>
 				</Container>
 			</Section>
-			<Section title="Projects">
+			<Section title="Projects" id="projects">
 				<Container>
 					<Jobs />
 				</Container>
 			</Section>
-			<Section title="Skills"></Section>
+			<Section title="Skills" id="skills"></Section>
 			<Contact />
 		</div>
 	);

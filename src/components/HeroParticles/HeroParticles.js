@@ -22,10 +22,10 @@ const HeroParticles = () => {
 				options={{
 					background: {
 						color: {
-							value: "transparent",
+							value: "#000",
 						},
 					},
-					fpsLimit: 60,
+					fpsLimit: 30,
 					interactivity: {
 						detectsOn: "canvas",
 						events: {
@@ -82,7 +82,7 @@ const HeroParticles = () => {
 								enable: true,
 								value_area: 800,
 							},
-							value: 80,
+							value: 40,
 						},
 						opacity: {
 							value: 0.5,
@@ -98,7 +98,7 @@ const HeroParticles = () => {
 					detectRetina: true,
 				}}
 			/>
-			<TypeWriterText className="testblah" />
+			<TypeWriterText className="typewriter-text" />
 		</div>
 	);
 };
