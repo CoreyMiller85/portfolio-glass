@@ -13,7 +13,6 @@ function Jobs() {
 				<p className="job__title">{j.title}</p>
 				<p className="job__dates">
 					{j.dates.start} - {j.dates.end}
-					test
 				</p>
 				<p className="job__location">
 					{j.location.city}, {j.location.state}

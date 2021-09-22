@@ -6,7 +6,9 @@
 	backdrop-filter: blur(3px);
 	box-shadow: $box-shadow-small;
 	transition: all 0.5s ease;
-	margin-bottom: 2rem;
+	margin-bottom: 30rem;
+	position: relative;
+
 	&__title {
 		position: relative;
 		display: inline-block;
@@ -21,6 +23,7 @@
 				rgba($color: rgb(119, 255, 0), $alpha: 1),
 				rgba($color: rgb(255, 3, 3), $alpha: 0)
 			);
+			overflow-x: hidden;
 			width: 160%;
 		}
 	}

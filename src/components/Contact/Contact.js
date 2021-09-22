@@ -7,7 +7,6 @@ import "./_Contact.scss";
 const Contact = () => {
 	function sendEmail(e) {
 		e.preventDefault();
-
 		emailjs
 			.sendForm(
 				"service_rxcv3wi",

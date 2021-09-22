@@ -1,21 +1,28 @@
+#contact {
+	margin-bottom: 20rem;
+}
+
+#contact::after {
+	content: "";
+}
+
 .contact {
 	&__form {
-		margin: 0rem;
-    
+		width: 100%;
 	}
 	&__name-label {
-		display: block;
+		width: 100%;
 	}
 	&__name-input {
 		background-color: transparent; /* Remove background fill */
 		text-transform: uppercase; /* Make text all uppercase */
 		border: 2px solid #fff; /* 2px white border */
 		padding: 5px;
-
+		display: inline-block;
+		width: 98%;
 		border-radius: 7px;
 		color: #fff; /* White text */
 		height: 45px; /* Increase input height */
-		width: 100%;
 	}
 	&__email-label {
 		display: block;
@@ -29,7 +36,7 @@
 		border: 2px solid #fff; /* 2px white border */
 		color: #fff; /* White text */
 		height: 45px; /* Increase input height */
-		width: 100%;
+		width: 98%;
 	}
 
 	&__message-label {
@@ -43,7 +50,7 @@
 		border: 2px solid #fff; /* 2px white border */
 		color: #fff; /* White text */
 		height: 100px; /* Increase input height */
-		width: 100%;
+		width: 98%;
 		margin-bottom: 1rem;
 	}
 	&__button {

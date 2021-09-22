@@ -9,6 +9,7 @@ function Content() {
 	return (
 		<div className="content">
 			<HeroImage />
+
 			<Section title="About Me" id="about-me">
 				<Container>
 					<p>

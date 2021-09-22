@@ -16,11 +16,12 @@ body {
 	height: 100vh;
 	background-image: url("../img/luca_braco_skyway.jpeg");
 	background-attachment: fixed;
-
+	backface-visibility: hidden;
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
 	overflow-x: hidden;
+	padding-bottom: 10rem;
 	animation: bgTransition 60s infinite 0s;
 	animation-timing-function: ease-in-out;
 }

@@ -22,10 +22,10 @@ const HeroParticles = () => {
 				options={{
 					background: {
 						color: {
-							value: "#000",
+							value: "none",
 						},
 					},
-					fpsLimit: 30,
+					fpsLimit: 60,
 					interactivity: {
 						detectsOn: "canvas",
 						events: {
@@ -57,10 +57,10 @@ const HeroParticles = () => {
 					},
 					particles: {
 						color: {
-							value: "#ffffff",
+							value: "#0084cd",
 						},
 						links: {
-							color: "#ffffff",
+							color: "#BFC0BF",
 							distance: 150,
 							enable: true,
 							opacity: 0.5,
@@ -73,7 +73,7 @@ const HeroParticles = () => {
 							direction: "none",
 							enable: true,
 							outMode: "bounce",
-							random: false,
+							random: true,
 							speed: 6,
 							straight: false,
 						},
