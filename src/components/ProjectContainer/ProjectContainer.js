@@ -1,6 +1,6 @@
 import React from "react";
 import mtgServerIMG from "../../img/mtg-server.png";
-import { Link } from "react-router";
+import { Link, useHistory } from "react-router";
 
 const styles = {
 	thumb: {
@@ -9,12 +9,19 @@ const styles = {
 };
 
 const ProjectContainer = () => {
+	const history = useHistory();
+
 	const handleGitButton = (e) => {
 		e.preventDefault();
 		window.open("https://github.com/CoreyMiller85/mtg-api-server", "_blank");
 	};
+
+	const handleProjectClick = (projectID) => {
+		history.push("/projects/" + projectID);
+	};
+
 	return (
-		<div className="project-container">
+		<div className="project-container" onClick={handleProjectClick}>
 			<div className="project-container__thumb" style={styles.thumb}></div>
 			<div className="project-container__details">
 				<div>CastR Magic:The Gathering Database Server</div>
@@ -25,8 +32,7 @@ const ProjectContainer = () => {
 						points for searching my extensive MongoDB database of all printed
 						Magic: The Gathering cards. It also controls the user database that
 						is used for authentication and creating a repo of each users
-						collected cards if they so choose. *Warning* Heroku Free Dyno, Will
-						take time to spin up
+						collected cards if they so choose.
 					</p>
 				</div>
 				<div>
