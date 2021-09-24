@@ -5,7 +5,7 @@ function Jobs() {
 
 	const listings = jobList.map((j) => {
 		if (!j) {
-			return;
+			return null;
 		}
 		return (
 			<div className="job">
