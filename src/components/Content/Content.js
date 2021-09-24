@@ -4,7 +4,7 @@ import Container from "../Container/Container";
 import HeroImage from "../HeroImage/HeroImage";
 import Jobs from "../Jobs/Jobs";
 import Section from "../Section/Section";
-
+import Project from "../Project/Project";
 function Content() {
 	return (
 		<div className="content">
@@ -23,7 +23,8 @@ function Content() {
 					</p>
 				</Container>
 			</Section>
-			<Section title="Projects" id="projects">
+			<Project />
+			<Section title="Jobs" id="jobs">
 				<Container>
 					<Jobs />
 				</Container>

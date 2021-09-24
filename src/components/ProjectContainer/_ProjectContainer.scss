@@ -1,0 +1,24 @@
+.project-container {
+	margin: 1rem 0rem;
+	display: flex;
+	border: 1px solid rgba(255, 255, 255, 0.05);
+	justify-content: space-around;
+	&__thumb {
+		flex: 1 1 25%;
+		background-size: 100%;
+		background-repeat: no-repeat;
+		background-position: 50% 50%;
+	}
+	&__details {
+		margin-left: 1rem;
+		flex: 1 1 75%;
+		display: flex;
+		flex-flow: column nowrap;
+		justify-content: space-around;
+	}
+
+	&__github-btn {
+		cursor: pointer;
+		margin-right: 0.5rem;
+	}
+}
