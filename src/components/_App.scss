@@ -1,0 +1,21 @@
+.app__main {
+	background-attachment: fixed;
+	background-position: center;
+	animation: changeBG 60s infinite normal;
+}
+
+@keyframes changeBG {
+	0% {
+		background-image: url(../img/sergei-akulich--heLWtuAN3c-unsplash.jpeg);
+	}
+
+	33% {
+		background-image: url(../img/steve-halama-jMlgFOiJLXc-unsplash.jpeg);
+	}
+	67% {
+		background-image: url(../img/donald-giannatti-7ne3hNnojvU-unsplash.jpeg);
+	}
+	100% {
+		background-image: url(../img/sergei-akulich--heLWtuAN3c-unsplash.jpeg);
+	}
+}

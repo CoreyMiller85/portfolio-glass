@@ -14,35 +14,6 @@ body {
 body {
 	width: 100vw;
 	height: 100vh;
-	background-image: url("../img/luca_braco_skyway.jpeg");
-	background-attachment: fixed;
-	backface-visibility: hidden;
-	background-size: cover;
-	background-position: center center;
-	background-repeat: no-repeat;
 	overflow-x: hidden;
 	padding-bottom: 10rem;
-	animation: bgTransition 60s infinite 0s;
-	animation-timing-function: ease-in-out;
-}
-
-@keyframes bgTransition {
-	0% {
-		background-image: url("../img/luca_braco_skyway.jpeg");
-	}
-	20% {
-		background-image: url("../img/michael-krahn-eGD69I3ODC4-unsplash.jpeg");
-	}
-	40% {
-		background-image: url("../img/steve-halama-jMlgFOiJLXc-unsplash.jpeg");
-	}
-	60% {
-		background-image: url("../img/sergei-akulich--heLWtuAN3c-unsplash.jpeg");
-	}
-	80% {
-		background-image: url("../img/donald-giannatti-7ne3hNnojvU-unsplash.jpeg");
-	}
-	100% {
-		background-image: url("../img/richard-powazynski-xpxXbEKYxzk-unsplash.jpeg");
-	}
 }

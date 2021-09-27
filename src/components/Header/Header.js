@@ -1,4 +1,8 @@
 import React from "react";
+import { BsPersonFill } from "react-icons/bs";
+import { IoMdCodeWorking } from "react-icons/io";
+import { IoLogoReact } from "react-icons/io5";
+import { AiOutlineMessage } from "react-icons/ai";
 
 const Header = () => {
 	return (
@@ -14,16 +18,36 @@ const Header = () => {
 			</div>
 			<ul className="header__list">
 				<li className="header__item">
-					<a href="#about-me">About Me</a>
+					<a href="#about-me">
+						<span class="title-full">About Me </span>
+						<span class="title-icon">
+							<BsPersonFill />
+						</span>
+					</a>
 				</li>
 				<li className="header__item">
-					<a href="#projects">Projects</a>
+					<a href="#projects">
+						<span class="title-full">Projects </span>
+						<span class="title-icon">
+							<IoMdCodeWorking />
+						</span>
+					</a>
 				</li>
 				<li className="header__item">
-					<a href="#skills">Skills</a>
+					<a href="#skills">
+						<span class="title-full">Skills </span>
+						<span class="title-icon">
+							<IoLogoReact />
+						</span>
+					</a>
 				</li>
 				<li className="header__item">
-					<a href="#contact">Contact</a>
+					<a href="#contact">
+						<span class="title-full">Contact </span>
+						<span class="title-icon">
+							<AiOutlineMessage />
+						</span>
+					</a>
 				</li>
 			</ul>
 		</div>

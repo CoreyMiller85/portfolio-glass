@@ -11,7 +11,7 @@
 		width: 100%;
 	}
 	&__logo {
-		margin-bottom: 2rem;
+		margin-bottom: 1rem;
 		display: inline-block;
 		align-self: center;
 		text-align: center;
@@ -39,9 +39,31 @@
 		letter-spacing: 2px;
 	}
 
+	// &__list {
+	// 	display: none;
+	// 	visibility: hidden;
+	// }
 	&__list {
-		display: none;
-		visibility: hidden;
+		list-style: none;
+		text-transform: uppercase;
+		text-align: center;
+		margin-bottom: 0.5rem;
+		display: flex;
+		justify-content: space-around;
+		& a:link,
+		& a:visited {
+			color: white;
+			text-decoration: none;
+		}
+
+		& .title-full {
+			visibility: hidden;
+			display: none;
+		}
+	}
+	&__item {
+		font-size: 2rem;
+		padding: 1rem 1.5rem;
 	}
 }
 
@@ -92,9 +114,16 @@
 			text-align: right;
 			visibility: visible;
 			display: block;
+			& .title-full {
+				visibility: visible;
+				display: inline-block;
+				margin-right: 1rem;
+			}
 		}
 		&__item {
 			border-bottom: 4px solid transparent;
+			font-size: 1rem;
+			padding: 0;
 
 			&:hover {
 				border-bottom: 4px solid rgb(119, 255, 0);
